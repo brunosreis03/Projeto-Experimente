@@ -1,0 +1,16 @@
+---
+- title: Usuário Inexistente
+  instituicao: Uninabuco
+  email: usuarioteste11@gmail.com
+  code: 200
+  error: Aluno não existe no sistema
+- title: Instituição Inválida
+  instituicao: Uninabuco1
+  email: usuarioteste1@gmail.com
+  code: 200
+  error: Instituição Inválida
+- title: Email Inválido
+  instituicao: Uninabuco
+  email: usuarioteste1%gmail.com
+  code: 200
+  error: Email inválido

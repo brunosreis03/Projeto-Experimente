@@ -1,0 +1,48 @@
+---
+- title: senha incorreta
+  instituicao: Uninabuco
+  payload:
+    email: usuarioteste1@gmail.com
+    password: Kost010204
+  code: 200
+  error: Usuário não cadastrado na Instituição.
+- title: usuario nao existe
+  instituicao: Uninabuco
+  payload:
+    email: kost@gmail.com
+    password: 402262
+  code: 200
+  error: Usuário não cadastrado na Instituição.
+- title: email em branco
+  instituicao: Uninabuco
+  payload:
+    email: ''
+    password: 402262
+  code: 200
+  error: Usuário não cadastrado na Instituição.
+- title: sem o campo email
+  instituicao: Uninabuco
+  payload:
+    password: 402262
+  code: 200
+  error: Usuário não cadastrado na Instituição.
+- title: senha em branco
+  instituicao: Uninabuco
+  payload:
+    email: usuarioteste1@gmail.com
+    password: ''
+  code: 200
+  error: Usuário não cadastrado na Instituição.
+- title: sem o campo senha
+  instituicao: Uninabuco
+  payload:
+    email: usuarioteste1@gmail.com
+  code: 200
+  error: Usuário não cadastrado na Instituição.
+- title: Outra unidade
+  instituicao: Uninassau
+  payload:
+    email: usuarioteste1@gmail.com
+    password: 402262
+  code: 200
+  error: Usuário não cadastrado na Instituição.

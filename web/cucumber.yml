@@ -1,0 +1,8 @@
+---
+default: --publish-quiet -p allure -p bdd -p qualidade -p chrome #define o formato padrao de resultado
+html: -f html -o logs/report.html #guarda o resultado de teste neste formato neste arquivo
+bdd: -f pretty #formato padrao em bdd
+allure: --format AllureCucumber::CucumberFormatter --out=logs
+qualidade: CONFIG=qualidade.yml
+chrome: BROWSER=chrome
+chrome_headless: BROWSER=chrome_headless

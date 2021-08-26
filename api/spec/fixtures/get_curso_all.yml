@@ -1,0 +1,9 @@
+---
+- title: Instituição Inválida
+  instituicao: Uninabuco1
+  code: 200
+  error: Instituição não cadastrada
+- title: Instituição não possui cursos faculdade cadastrados
+  instituicao: Univeritas
+  code: 200
+  error: Nenhum Curso Cadastrado

@@ -1,0 +1,9 @@
+---
+- title: Usuário existente mas não cadastrado em nenhum curso
+  email: usuarioteste@gmail.com
+  code: 200
+  error: Usuário não encontrado. URL Nula.
+- title: Usuário não existe
+  email: usuarioteste2@gmail.com
+  code: 200
+  error: Usuário não encontrado. URL Nula.

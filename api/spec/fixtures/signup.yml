@@ -1,0 +1,90 @@
+---
+- title: Curso não existe
+  instituicao: Uninabuco
+  payload:
+    Nome: Bruno
+    SobreNome: Ries
+    Email: usuarioteste127@gmail.com
+    CPF: 905.421.549-60
+    Telefone: 6499-9999
+    CursoInstituicao: Faculdade Uninabuco
+  code: 200
+  error: Não existe Curso Cadastrado para essa Instituição.
+- title: CPF repetido
+  instituicao: Uninabuco
+  payload:
+    Nome: Bruno
+    SobreNome: Ries
+    Email: usuarioteste8@gmail.com
+    CPF: 402.262.350-09
+    Telefone: 6499-9999
+    CursoInstituicao: Faculdade Uninabuco
+  code: 200
+  error: CPF já cadastrado!
+- title: Email invalido
+  instituicao: Uninabuco
+  payload:
+    Nome: Bruno
+    SobreNome: Ries
+    Email: usuarioteste8$gmail.com
+    CPF: 905.421.549-60
+    Telefone: 6499-9999
+    CursoInstituicao: Faculdade Uninabuco
+  code: 200
+  error: Digite um e-mail válido
+- title: Nome em branco
+  instituicao: Uninabuco
+  payload:
+    Nome: 
+    SobreNome: Ries
+    Email: usuarioteste8@gmail.com
+    CPF: 905.421.549-60
+    Telefone: 6499-9999
+    CursoInstituicao: Faculdade Uninabuco
+  code: 200
+  error: Nome Inválido
+- title: Email em branco
+  instituicao: Uninabuco
+  payload:
+    Nome: Bruno
+    SobreNome: Ries
+    Email: 
+    CPF: 905.421.549-60
+    Telefone: 6499-9999
+    CursoInstituicao: Faculdade Uninabuco
+  code: 200
+  error: Email inválido.
+- title: CPF em branco
+  instituicao: Uninabuco
+  payload:
+    Nome: Bruno
+    SobreNome: Ries
+    Email: usuarioteste8@gmail.com
+    CPF: 
+    Telefone: 6499-9999
+    CursoInstituicao: Faculdade Uninabuco
+  code: 200
+  error: CPF não é válido
+- title: Telefone em branco
+  instituicao: Uninabuco
+  payload:
+    Nome: Bruno
+    SobreNome: Ries
+    Email: usuarioteste126@gmail.com
+    CPF: 905.421.549-60
+    Telefone: 
+    CursoInstituicao: Curso Faculdade Uninabuco
+  code: 200
+  error: Digite um telefone válido
+- title: Número no campo nome
+  instituicao: Uninabuco
+  payload:
+    Nome: 453453
+    SobreNome: Ries
+    Email: usuarioteste234@gmail.com
+    CPF: 905.421.549-60
+    Telefone: 6499-9999
+    CursoInstituicao: Curso Faculdade Uninabuco
+  code: 200
+  error: Nome em branco ou inválido. São aceitos somente letras.
+
